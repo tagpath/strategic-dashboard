@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CEO Strategic Dashboard - Maurício Portal</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        
+        :root {
+            --primary: #0f766e;
+            --success: #10b981;
+            --warning: #f59e0b;
+            --dark: #111827;
+        }
+        
+        body {
+            font-family: 'Inter', system-ui, sans-serif;
+            background: linear-gradient(135deg, #f8fafc 0%, #e0f2f1 100%);
+            margin: 0;
+            padding: 20px;
+            color: #1f2937;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            background: white;
+            padding: 24px 32px;
+            border-radius: 16px;
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+            margin-bottom: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        h1 {
+            margin: 0;
+            color: var(--primary);
+            font-size: 28px;
+            font-weight: 700;
+        }
+        
+        .date {
+            color: #64748b;
+            font-size: 15px;
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+            gap: 24px;
+        }
+        
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 24px;
+            box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+        }
+        
+        .card h2 {
+            margin-top: 0;
+            color: var(--primary);
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 12px;
+        }
+        
+        .pulse {
+            background: linear-gradient(90deg, #0f766e, #14b8a6);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+        }
+        
+        .company {
+            border-left: 5px solid var(--primary);
+        }
+        
+        .metric {
+            display: flex;
+            justify-content: space-between;
+            margin: 12px 0;
+            padding: 8px 0;
+            border-bottom: 1px solid #f1f5f9;
+        }
+        
+        .label {
+            font-weight: 500;
+            color: #64748b;
+        }
+        
+        .value {
+            font-weight: 600;
+        }
+        
+        .action-plan {
+            background: #f8fafc;
+        }
+        
+        ul {
+            padding-left: 20px;
+        }
+        
+        .synergy {
+            background: #ecfdf5;
+            padding: 16px;
+            border-radius: 12px;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>🚀 CEO Strategic Dashboard</h1>
+                <p style="margin: 8px 0 0 0; color: #475569;">Maurício Portal • Visão Consolidada</p>
+            </div>
+            <div class="date">
+                <strong>22 de Maio de 2026</strong><br>
+                <span style="font-size: 13px;">Versão 1.0 • Command Center</span>
+            </div>
+        </header>
+
+        <!-- EXECUTIVE PULSE -->
+        <div class="pulse">
+            <h2 style="margin:0 0 16px 0; color:white;">EXECUTIVE PULSE</h2>
+            <p><strong>Saúde do Portfólio:</strong> 4 projetos ativos • Foco em Profitability & Scalability</p>
+            <p><strong>Prioridade:</strong> Fechar GreenDocs + Primeiro Evento Race Control + Break-even A Orla</p>
+            <p><strong>Alocação Recomendada:</strong> 45% 29docs | 30% Race Control | 15% A Orla | 10% CEO</p>
+        </div>
+
+        <div class="grid">
+
+            <!-- COMPANY CARDS -->
+            <div class="card company">
+                <h2>🏭 29docs</h2>
+                <div class="metric"><span class="label">Foco</span><span class="value">Gestão de documentos + GreenDocs (W3K)</span></div>
+                <div class="metric"><span class="label">Margem Alvo</span><span class="value" style="color:var(--success)">>60%</span></div>
+                <div class="metric"><span class="label">Prioridade</span><span class="value">Pipeline alto valor + 1 GreenDocs até dez/26</span></div>
+            </div>
+
+            <div class="card company">
+                <h2>🏎️ Race Control</h2>
+                <div class="metric"><span class="label">Foco</span><span class="value">Chip timing MYLAPS + App white-label</span></div>
+                <div class="metric"><span class="label">Margem Alvo</span><span class="value" style="color:var(--success)">>70%</span></div>
+                <div class="metric"><span class="label">Prioridade</span><span class="value">Primeiro evento 2026 + Recorrência</span></div>
+            </div>
+
+            <div class="card company">
+                <h2>🎙️ A Orla</h2>
+                <div class="metric"><span class="label">Foco</span><span class="value">Podcast Endurance Sports</span></div>
+                <div class="metric"><span class="label">Objetivo</span><span class="value">Break-even via patrocínios + Funil autoridade</span></div>
+            </div>
+
+            <!-- SYNERGIES -->
+            <div class="card">
+                <h2>🔄 SYNERGIES</h2>
+                <div class="synergy">
+                    <strong>A Orla → Race Control + 29docs</strong><br>
+                    Canal de autoridade e aquisição de leads
+                </div>
+                <div class="synergy">
+                    <strong>Narrativa Única:</strong> Disciplina de Alta Performance
+                </div>
+            </div>
+
+            <!-- ACTION PLAN -->
+            <div class="card action-plan">
+                <h2>📅 ACTION PLAN - Próximos 30 Dias</h2>
+                <ul>
+                    <li><strong>Sem 1-2:</strong> Posicionamento + 10-15 leads 29docs</li>
+                    <li><strong>Sem 3-4:</strong> Primeiro evento Race Control + Episódios A Orla</li>
+                    <li><strong>Milestone:</strong> Pipeline R$300k + 4 episódios + 1 evento</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <footer style="text-align:center; margin-top:40px; color:#64748b; font-size:14px;">
+            Foco Radical: <strong>Profitability • Scalability • Execução Rápida</strong><br>
+            <em>Atualizado automaticamente via Grok • Maurício Portal</em>
+        </footer>
+    </div>
+</body>
+</html>
