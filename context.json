@@ -1,0 +1,22 @@
+{
+  "date": "2026-05-22",
+  "projects": {
+    "29docs": {
+      "status": "Blue - Active Revenue",
+      "pipeline": "R$81K+",
+      "key_metrics": ["CBMM anchor", "Pharma vertical", "GreenDocs acceleration"]
+    },
+    "race_control": {
+      "status": "Amber - Pre-revenue",
+      "key_metrics": ["RunSports hot", "ZFM despachante", "First event 2026"]
+    },
+    "a_orla": {
+      "status": "Purple - Building",
+      "burn_rate": "R$1.44K",
+      "revenue": "R$480",
+      "key_metrics": ["Season 3", "Sponsors"]
+    }
+  },
+  "portfolio_health": 7.4,
+  "synergies": ["A Orla → Authority for 29docs and Race Control"]
+}
